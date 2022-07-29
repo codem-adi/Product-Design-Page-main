@@ -11,7 +11,7 @@ This website is fully created with core CSS and HTML
 ![badge](https://img.shields.io/badge/HTML-CSS-green)
 
 
-Check the live project here: [Lets change](https://productdesignpagemainbyaditya.netlify.app/)
+Check the live project here: [Cehck it](https://productdesignpagemainbyaditya.netlify.app/)
 
 
 
