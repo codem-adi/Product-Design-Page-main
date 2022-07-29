@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Recursive', sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+body {
+  background: #111111;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+.logo {
+  width: 100px;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  margin-right: 3rem;
+  white-space: nowrap
+}
+.fa-solid {
+  margin-left: 6px;
+  color: #ffffff;
+  font-size: 17px;
+}
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  padding: 1rem 3rem;
+}
+.hero-details {
+  margin: auto;
+}
+.hero-img > img {
+  width: 100%;
+}
+.hero-details > h4 {
+  color: #ff3343;
+  font-size: 20px;
+}
+.hero-details > h1 {
+  font-size: 65px;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.hero-details > p {
+  font-size: 18px;
+  color: #e1e1e1;
+  margin-bottom: 3rem;
+}
+.about-btn {
+  padding: 1rem 3rem;
+  background: #c91b28;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.background-fader{
+  position: absolute;
+  width: 50%;
+  height: 600px;
+  background:#181818;
+  left: 0px;
+  z-index: -1;
+}
+.skills-container {
+  padding: 1rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.skill-card {
+  padding: 2rem;
+  background: #1e1e1e;
+}
+.skill-card > .fa-solid,
+.skill-card .fa-brands {
+  font-size: 50px;
+  margin-bottom: 1rem;
+  color: #ff3343;
+}
+.skill-card > h3 {
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.skill-card > p {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.skill-card > h6 {
+  font-size: 17px;
+  font-weight: bolder;
+  color: #c91b28;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+.skill-card > h6 > .fa-solid {
+  color: #c91b28;
+}
+.skills-container .skill-card:nth-child(2) {
+  background: #c91b28;
+}
+.skills-container .skill-card:nth-child(2) .fa-solid,
+.skills-container .skill-card:nth-child(2) h6 {
+  color: #ffffff;
+}
+
+.experience-container {
+  padding: 1rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.years-of-experience {
+  margin: auto;
+  text-align: center;
+}
+.years-of-experience h1 {
+  font-size: 60px;
+  color: #ef4040;
+  margin-bottom: 1rem;
+}
+.years-of-experience p {
+  font-size: 25px;
+  color: #fff;
+}
+.e-cards {
+  text-align: center;
+  background: #1e1e1e;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.e-cards > h2 {
+  font-size: 40px;
+  color: #c91b28;
+  margin-bottom: 1rem;
+}
+.e-cards > p {
+  font-size: 21px;
+  color: #fff;
+}
+.featured-product-container{
+    padding: 1rem 3rem;   
+}
+.featured-title-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.view-btn{
+    font-size: 16px;
+    padding: 10px 2rem;
+    background: #ff3343;
+    color: #ffffff;
+    border: none;
+    text-transform: uppercase;
+}
+.feature-title > h3{
+    font-size: 35px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.feature-title > p{
+    font-size: 20px;
+    color: #fff;
+}
+.featured-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.project-img-container{
+    background: #1e1e1e;
+    padding: 3rem 1rem;
+}
+.project-img-container > img{
+    width: 100%;
+}
+.project > h3{
+    font-size: 25px;
+    margin-top: 1rem;
+    font-weight: bolder;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.project > h6{
+    color: #ff3343;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.project > h6 > .fa-solid{
+    color: #ff3343;
+    margin-left: 5px;
+}
+.project:last-child > .project-img-container{
+    padding: 4.5rem 1rem;
+}
+.work-together{
+    padding:2rem 3rem;
+}
+.work-detail-container{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    gap: 1rem;
+    background: #1e1e1e;
+}
+.contact-btn{
+    margin: auto;
+    font-size: 20px;
+    padding: 1rem 3rem;
+    background: #ff3343;
+    border: none;
+    color: #fff;
+}
+.work-detail{
+    padding: 3rem 2rem;
+}
+.work-detail > h2{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 1rem;    
+}
+.work-detail > p{
+    font-size: 20px;
+    color: #b5b5b5;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.flink{
+    margin-right: 2rem;
+    text-transform: uppercase;
+}
+.footer{
+    padding: 1rem 3rem;
+    background:#1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-icons{
+    margin-left: auto;
+    margin-right: 40%;
+}
+.social-icons > *{
+    margin-right: 3rem;
+    font-size:20px;
+    color: #fff;
+}
+@media screen and (max-width:920px) {
+    .hero-container{
+        grid-template-columns: 1fr;
+    }
+    .hero-details{
+        text-align: center;
+    }
+    .navbar{
+        overflow-x: scroll;
+    }
+    .nav-links{
+        margin-left: 2rem;
+    }
+    .background-fader{
+      height: 690px;
+    }
+  }
+  @media screen and (max-width: 800px){
+    .skills-container{
+      grid-template-columns: 1fr 1fr;
+    }
+    .background-fader{
+      height: 900px;
+    }
+  }
+  @media screen and (max-width:715px) {
+    .featured-title-container{
+      flex-direction: column;
+    }
+    .feature-title{
+        margin-bottom: 1rem;
+      }
+      .featured-cards{
+        grid-template-columns: 1fr;
+      }
+      .work-detail-container{
+        grid-template-columns: 1fr;
+      }
+      .contact-btn{
+        margin-bottom: 1rem;
+      }
+      .footer{
+        flex-direction: column-reverse;
+      }
+      .footer .logo{
+        margin-bottom: 1rem;
+      }
+      .social-icons{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+      }
+      .background-fader{
+        height: 1000px;
+      }
+    }
